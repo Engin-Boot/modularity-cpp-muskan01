@@ -1,6 +1,7 @@
 #ifndef MAJORMINOR_H
 #define MAJORMINOR_H
 
+#include <iostream>
 #include <string>
 
 namespace TelCoColorCoder
