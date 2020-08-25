@@ -1,7 +1,7 @@
 #include <string.h>
 #include "MajorMinor.h"
 
-namespace TelCoColorCoder
+using namespace TelCoColorCoder;
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
