@@ -1,3 +1,6 @@
+#ifndef MAJORMINOR
+#define MAJORMINOR
+
 namespace TelCoColorCoder
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -48,3 +51,5 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
+
+#endif
