@@ -1,4 +1,5 @@
-#include <string.h>
+#ifndef MAJORMINORFUNC
+#define MAJORMINORFUNC
 #include "MajorMinor.h"
 
 namespace TelCoColorCoder
@@ -37,3 +38,4 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
+#endif
