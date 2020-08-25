@@ -38,4 +38,5 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
+
 #endif
