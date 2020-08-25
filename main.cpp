@@ -32,7 +32,7 @@ void ToString()
         TelCoColorCoder::ColorPair pair = TelCoColorCoder::GetColorFromPairNumber(pair_numb);
         std::cout<<"Pair number: "<<pair_numb<<" "<<"Color Pair: "<<pair.ToString()<<std::endl;
     }
-
+}
 int main() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
     testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
