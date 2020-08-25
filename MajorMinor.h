@@ -17,4 +17,5 @@ namespace TelCoColorCoder
     int numberOfMinorColors =
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 }
+
 #endif
