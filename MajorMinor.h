@@ -1,8 +1,5 @@
-#ifndef MAJORMINOR_H
-#define MAJORMINOR_H
-
 #include <iostream>
-#include <string>
+#include <assert>
 
 namespace TelCoColorCoder
 {
@@ -54,5 +51,3 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
 }
-
-#endif
