@@ -1,6 +1,7 @@
 #include <iostream>
 #include <assert.h>
 #include "MajorMinor.h"
+#include "MajorMinorfunc.h"
 
 using namespace TelCoColorCoder;
 
