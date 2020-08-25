@@ -1,4 +1,5 @@
-#include <string>
+#include <string.h>
+#include "MajorMinor.h"
 
 namespace TelCoColorCoder
 {
