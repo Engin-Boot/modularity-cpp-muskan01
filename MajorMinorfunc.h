@@ -9,9 +9,10 @@ namespace TelCoColorCoder
             MajorColor majorColor;
             MinorColor minorColor;
         public:
-            ColorPair(MajorColor major, MinorColor minor):
-                majorColor(major), minorColor(minor)
-            {}
+            ColorPair(MajorColor major, MinorColor minor){
+                majorColor = major; 
+                minorColor = minor;
+            }
             MajorColor getMajor() {
                 return majorColor;
             }
