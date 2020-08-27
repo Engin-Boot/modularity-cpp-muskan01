@@ -1,4 +1,4 @@
-#indef TELECOLORTEST
+#ifndef TELECOLORTEST
 #define TELECOLORTEST
 
 #include "MajorMinor.h"
