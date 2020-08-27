@@ -3,6 +3,7 @@
 #include <assert.h>
 #include "MajorMinor.h"
 #include "MajorMinorfunc.h"
+#include "TeleColorTest.h"
 
 using namespace TelCoColorCoder;
 
