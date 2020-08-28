@@ -9,9 +9,9 @@ using namespace TelCoColorCoder;
 
 void ToString()
 {   int PairNumber = 0;
-    String Manual = "";
-    String TempManual = "";
-   String PairNumberInString = "";
+    string Manual = "";
+    string TempManual = "";
+   string PairNumberInString = "";
  
     for(int MajorColorno= 0; MajorColorno < TelCoColorCoder:: numberOfMajorColors ; MajorColorno++){
         for(int MinorColorno= 0; MinorColorno < TelCoColorCoder:: numberOfMinorColors ; MinorColorno++)
