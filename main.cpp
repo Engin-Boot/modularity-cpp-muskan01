@@ -10,18 +10,16 @@ using namespace TelCoColorCoder;
 void ToString()
 {   int PairNumber = 0;
     string Manual = "";
-    string TempManual = "";
    string PairNumberInString = "";
  
     for(int MajorColorno= 0; MajorColorno < TelCoColorCoder:: numberOfMajorColors ; MajorColorno++){
         for(int MinorColorno= 0; MinorColorno < TelCoColorCoder:: numberOfMinorColors ; MinorColorno++)
- {           TempManual = "";
+ {   string majorcolorName = TelCoColorCoder::MajorColorNames[ MajorColorno];
+     string minorcolorName = TelCoColorCoder::MinorColorNames[MinorColorno];      
        PairNumber = PairNumber + 1;
-      TelCoColorCoder::ColorPair pair = TelCoColorCoder::GetColorFromPairNumber(PairNumber);
-        TempManual = pair.ToString();
-      PairNumberInString = std::to_string(PairNumber);
-    } 
-        Manual = PairNumberInString + ". " +  PairNumberInString + "\n";
+      PairNumberInString = to_string(PairNumber);
+      Manual = Manual + PairNumberInString + ". " + "Major: " + majorcolorName + ", Minor: " + minorcolorName + "\n";
+    }
     }
  cout << Manual << endl;
 } 
