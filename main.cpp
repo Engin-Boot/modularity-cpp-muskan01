@@ -4,6 +4,7 @@
 #include "MajorMinor.h"
 #include "MajorMinorfunc.h"
 #include "TeleColorTest.h"
+using namespace std;
 using namespace TelCoColorCoder;
 
 void ToString()
