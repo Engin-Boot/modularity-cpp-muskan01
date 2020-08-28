@@ -4,8 +4,8 @@
 #include "MajorMinor.h"
 #include "MajorMinorfunc.h"
 
-namespace TelCoColorCoder
-{
+using namespace TelCoColorCoder;
+
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
@@ -26,5 +26,5 @@ void testPairToNumber(
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
-}
+
 #endif
