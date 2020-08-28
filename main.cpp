@@ -8,13 +8,13 @@ using namespace TelCoColorCoder;
 
 void ToString()
 {   int PairNumber = 0;
-    String Manual = " ";
-    String TempManual = " ";
-   String PairNumberInString = " ";
+    String Manual = "";
+    String TempManual = "";
+   String PairNumberInString = "";
  
     for(int MajorColorno= 0; MajorColorno < TelCoColorCoder:: numberOfMajorColors ; MajorColorno++){
         for(int MinorColorno= 0; MinorColorno < TelCoColorCoder:: numberOfMinorColors ; MinorColorno++)
- {           TempManual = " ";
+ {           TempManual = "";
        PairNumber = PairNumber + 1;
       TelCoColorCoder::ColorPair pair = TelCoColorCoder::GetColorFromPairNumber(PairNumber);
         TempManual = pair.ToString();
